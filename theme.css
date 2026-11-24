@@ -1,0 +1,12 @@
+/* 09 · Christmas Market — timber and candy-stripe awning panels, warm lantern amber */
+:root{--bg:#150c08;--ink:#f8ecd9;--ink-dim:rgba(248,236,217,.78);--accent:#f0b35a;--accent-ink:#2a1405;--panel:rgba(42,21,12,.76);--panel-line:rgba(240,179,90,.42);--radius:6px;
+ --spark:#ffd27a,#fff0c8,#ff9a6a;--bloom:rgba(255,200,120,.9);--tint-bg:linear-gradient(180deg,rgba(16,8,4,.5),rgba(16,8,4,.93));--tint-max:.93;--burst-y:.55;--focus:50% 55%;--orn:var(--o-tree)}
+.op-title{font-weight:600;font-size:clamp(34px,10.4vw,48px)}
+.panel{padding-top:50px;margin-top:10px;border-top:0;box-shadow:0 16px 40px rgba(0,0,0,.5);overflow:visible}
+.panel::before{content:"";position:absolute;left:-2px;right:-2px;top:-10px;height:30px;
+ background:repeating-linear-gradient(90deg,#c8372d 0 17px,#f8ecd9 17px 34px);
+ -webkit-mask:radial-gradient(circle at 50% 100%,#000 8.5px,#0000 9px) 0 0/17px 100% repeat-x,linear-gradient(#000,#000) 0 0/100% 21px no-repeat;
+ mask:radial-gradient(circle at 50% 100%,#000 8.5px,#0000 9px) 0 0/17px 100% repeat-x,linear-gradient(#000,#000) 0 0/100% 21px no-repeat;border-radius:6px 6px 0 0;filter:drop-shadow(0 3px 3px rgba(0,0,0,.4))}
+.h{font-weight:600}
+.btn{border-radius:4px}.note,.cd div{border-radius:6px}
+.course p{font-size:19px}
